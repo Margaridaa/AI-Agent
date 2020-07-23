@@ -22,12 +22,16 @@ has at least one chair?
 ## User Guide
 
 You need VirtualBox to open the virtual machine: https://www.virtualbox.org/. Choose a 64bit version.
+
 Everything about ROS can be found here: http://ros.org.
+
 Download the virtual machine with the complete setup in shorturl.at/qwK69.  It is a 4GByte file.
+
 
 After that, you need to download the file *go2.sh* and place it at `/home/`.
 
 You also need to download `agent.py` and `questions_keyboard.py`. Both of these files must be placed in `/home/viki/catkin_ws/src/ia/src/`.
 
-Finally, you can open a terminal and run `./go2.sh` to execute. You should then see some XTerms and the world (the hotel) and some colored squares - the objects. Note that one of these squares will be the robot. The robot will always start in a corridor, in front of the elevator.
+Finally, you can open a terminal and run `./go2.sh` to execute. You should then see some XTerms and the world (the hotel) and some colored squares - the objects. 
+Note that one of these squares will be the robot. **The robot will always start in a corridor, in front of the elevator.**
 
